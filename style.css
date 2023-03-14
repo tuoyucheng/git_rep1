@@ -7,7 +7,7 @@ html {
 }
 body {
   color: #383e45;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 a {
   text-decoration: none;
@@ -19,27 +19,27 @@ li {
   list-style: none;
 }
 .site-title {
-  width: 120px;
+  width: 100px;
   line-height: 1px;
-  padding: 10px 0;
+  padding: 8px 0;
 }
 .site-title a {
   display: block;
 }
 .section-title {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 6rem;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
   border-bottom: solid 1px #383e45;
 }
 .content-title {
   font-size: 1rem;
-  margin: 10px 0;
+  margin: 8px 0;
 }
 .wrapper {
-  max-width: 960px;
-  margin: 0 auto 100px auto;
+  max-width: 900px;
+  margin: 0 auto 80px auto;
   padding: 0 4%;
   text-align: center;
 }
@@ -55,10 +55,10 @@ li {
 }
 #header ul {
   display: flex;
-  padding: 10px 0;
+  padding: 8px 0;
 }
 #header li {
-  margin-left: 30px;
+  margin-left: 15px;
 }
 #header li a {
   color: #24292e;
@@ -71,12 +71,12 @@ li {
 Mainvisual
 -------------------------------------------*/
 #mainvisual {
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 #mainvisual img {
   width: 100%;
-  max-width: 1920px;
-  height: 600px;
+  max-width: 1800px;
+  height: 500px;
   object-fit: cover;
 }
 
@@ -90,9 +90,9 @@ About
 }
 #about img {
   width: 100px;
-  height: 100px;
+  height: 80px;
   border-radius: 50%;
-  margin-right: 30px;
+  margin-right: 50px;
 }
 #about .text {
   text-align: left;
@@ -113,8 +113,8 @@ Bicycle
 footer
 -------------------------------------------*/
 #footer {
-  font-size: 0.5rem;
-  padding: 10px 0;
+  font-size: 1rem;
+  padding: 8px 0;
   text-align: center;
 }
 
@@ -148,6 +148,6 @@ SP
   }
   #bicycle li {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 }
