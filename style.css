@@ -5,27 +5,34 @@
 html {
   font-size: 100%;
 }
+
 body {
   color: #383e45;
   font-size: 0.7rem;
 }
+
 a {
   text-decoration: none;
 }
+
 img {
   max-width: 100%;
 }
+
 li {
   list-style: none;
 }
+
 .site-title {
   width: 100px;
   line-height: 1px;
   padding: 8px 0;
 }
+
 .site-title a {
   display: block;
 }
+
 .section-title {
   display: inline-block;
   font-size: 6rem;
@@ -33,10 +40,12 @@ li {
   margin-bottom: 70px;
   border-bottom: solid 1px #383e45;
 }
+
 .content-title {
   font-size: 1rem;
   margin: 8px 0;
 }
+
 .wrapper {
   max-width: 900px;
   margin: 0 auto 80px auto;
@@ -44,35 +53,34 @@ li {
   text-align: center;
 }
 
-/*-------------------------------------------
-ヘッダー
--------------------------------------------*/
 #header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
 }
+
 #header ul {
   display: flex;
   padding: 8px 0;
 }
+
 #header li {
   margin-left: 15px;
 }
+
 #header li a {
   color: #24292e;
 }
+
 #header li a:hover {
   opacity: 0.7;
 }
 
-/*-------------------------------------------
-Mainvisual
--------------------------------------------*/
 #mainvisual {
   margin-bottom: 100px;
 }
+
 #mainvisual img {
   width: 100%;
   max-width: 1800px;
@@ -80,72 +88,57 @@ Mainvisual
   object-fit: cover;
 }
 
-/*-------------------------------------------
-About
--------------------------------------------*/
 #about .content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 #about img {
   width: 100px;
   height: 80px;
   border-radius: 50%;
   margin-right: 50px;
 }
+
 #about .text {
   text-align: left;
 }
 
-/*-------------------------------------------
-Bicycle
--------------------------------------------*/
 #bicycle ul {
   display: flex;
   justify-content: space-between;
 }
+
 #bicycle li {
   width: 32%;
 }
 
-/*-------------------------------------------
-footer
--------------------------------------------*/
 #footer {
   font-size: 1rem;
   padding: 8px 0;
   text-align: center;
 }
 
-/*-------------------------------------------
-SP
--------------------------------------------*/
 @media screen and (max-width: 600px) {
 
-  /*-------------------------------------------
-  Mainvisual
-  -------------------------------------------*/
   #mainvisual img {
     height: calc(100vh - 60px);
   }
 
-  /*-------------------------------------------
-  About
-  -------------------------------------------*/
+
   #about .content {
     flex-direction: column;
   }
+
   #about img {
     margin-right: 0;
   }
 
-  /*-------------------------------------------
-  Bicycle
-  -------------------------------------------*/
   #bicycle ul {
     flex-direction: column;
   }
+
   #bicycle li {
     width: 100%;
     margin-bottom: 25px;
